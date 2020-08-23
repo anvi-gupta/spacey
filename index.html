@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Fun Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img id="image1" src="https://i1.faceprep.in/ProGrad/space-man-1.png
+" alt="">
+<img id="image2" src="https://i1.faceprep.in/ProGrad/space-man-2.png
+" alt="">
+<form action="mailto:anviankur@gmail.com?Subject=My Best Friend Application Form" method="POST" enctype="text/plain">
+    <h1>Rocket around the moon with your BFFs</h1>
+    <label class="display" for="country">Departure country</label>
+    <select name="countries" id="countries" >
+   <option value="india">India</option>
+   <option value="usa">USA</option>
+   <option value="england">England</option>
+</select>
+    <label class="display" for="travellers">Number of space travellers</label>
+    <input type="number" name="travellers" id="travellers" min="1" max="10" placeholder="No.of travellers...." >
+    <label class="display" for="email">Please write your email ID</label>
+<input type="text" name="email" id="email" placeholder="Your email ID...">
+<label class="display" for="rent">Do you wanna rent a spacesuit?</label>
+<input type="radio" id="yes" name="rent-button" value="yes">
+<label class="rent-label" for="yes">Yes please </label>
+<input type="radio" id="no" name="rent-button" value="no">
+<label class="rent-label" for="no">Have our own suit</label>
+<br>
+<input type="submit" id="button" value="TAKE US TO SPACE" >
+</form>
+</body>
+</html>
